@@ -31,7 +31,7 @@ nav {
 header {
     display: flex;
     flex-direction: column;
-    padding: 0 0.75rem;
+    padding: 0 1rem;
     margin-top: 2rem;
     justify-content: center;
     align-items: center;
@@ -69,6 +69,10 @@ header {
     background-color: #1B3356;
 }
 
+#form-h2 {
+    margin-top: 0;
+}
+
 .form-label {
     margin-top: 1rem;
 }
@@ -99,9 +103,23 @@ header {
     padding: 2% 0;
     font-weight: 800;
     border-radius: 12px;
+    color: white;
 }
 
 @media (min-width: 768px) {
-   
+   #logo {
+    width: 9rem;
+    }
+    header {
+        
+    }
+    #main-contact-form {
+        margin-top: 3rem;
+        max-width: 50%;
+        margin-bottom: 10rem;
+    }
+    #profile-pic {
+        width: 15rem;
+    }
   }
   
