@@ -26,11 +26,27 @@ nav {
     padding: 0 0.75rem;
 }
 
-header {
-    padding: 0 0.75rem;
-    margin-top: 2rem;
-}
-
 #logo {
     width: 5rem;
 }
+
+header {
+    display: flex;
+    flex-direction: column;
+    padding: 0 0.75rem;
+    margin-top: 2rem;
+    justify-content: center;
+    align-items: center;
+}
+
+#header-title {
+    order: 2;
+    margin-top: 1rem;
+   text-align: center;
+}
+
+#profile-pic {
+    width: 8rem;
+    order: 1'
+}
+
