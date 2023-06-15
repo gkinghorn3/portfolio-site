@@ -4,6 +4,7 @@ body {
     background-color: #0A192F;
     font-family: "Mulish", "sans-serif";
     color: white;
+    
 }
 
 h1 {
@@ -16,10 +17,7 @@ h3 {
     margin: 0;
 }
 
-#header-name {
-    margin-top: 0;
-    font-size: 2.3rem;
-}
+
 
 nav {
     margin-top: 1rem;
@@ -45,8 +43,65 @@ header {
    text-align: center;
 }
 
+#header-name {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 2.3rem;
+}
+
 #profile-pic {
     width: 8rem;
     order: 1'
 }
 
+#header-intro-text {
+    order: 3;
+    text-align: center;
+}
+
+#main-contact-form {
+    order: 4;
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    padding: 4%;
+    border-radius: 12px;
+    background-color: #1B3356;
+}
+
+.form-label {
+    margin-top: 1rem;
+}
+
+.form-input {
+    margin-top: 0.3rem;
+    border-radius: 6px;
+    background-color: #2B4C7C;
+    border: none;
+}
+
+#name-input {
+    width:50%;
+}
+
+#message-input {
+    height: 4rem;
+}
+
+#form-submit-btn {
+    margin-top: 1.2rem;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    font: inherit;
+    background-color: #FFB459;
+    border: none;
+    padding: 2% 0;
+    font-weight: 800;
+    border-radius: 12px;
+}
+
+@media (min-width: 768px) {
+   
+  }
+  
