@@ -106,20 +106,32 @@ header {
     color: white;
 }
 
+#form-submit-btn:hover {
+    background-color: #ED8E1C;
+}
+
 @media (min-width: 768px) {
    #logo {
     width: 9rem;
     }
-    header {
-        
+    #header-intro-text {
+        max-width: 50%;
     }
     #main-contact-form {
         margin-top: 3rem;
         max-width: 50%;
         margin-bottom: 10rem;
+        padding: 2%;
     }
     #profile-pic {
         width: 15rem;
+    }
+    .form-input {
+        height: 3rem;
+    }
+    #form-submit-btn {
+        width: 40%;
+        padding: 1% 0;
     }
   }
   
