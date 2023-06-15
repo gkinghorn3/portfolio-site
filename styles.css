@@ -1,0 +1,36 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #0A192F;
+    font-family: "Mulish", "sans-serif";
+    color: white;
+}
+
+h1 {
+    font-family: "Mulish";
+    font-weight: 800;
+    color: #FFB459;
+}
+
+h3 {
+    margin: 0;
+}
+
+#header-name {
+    margin-top: 0;
+    font-size: 2.3rem;
+}
+
+nav {
+    margin-top: 1rem;
+    padding: 0 0.75rem;
+}
+
+header {
+    padding: 0 0.75rem;
+    margin-top: 2rem;
+}
+
+#logo {
+    width: 5rem;
+}
