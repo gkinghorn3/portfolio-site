@@ -126,6 +126,17 @@ header {
     font-weight: bolder;
 }
 
+.project-links {
+    display: flex;
+    flex-direction: row;
+}
+
+.project-link-text {
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+}
+
 #main-contact-form {
     order: 4;
     display: flex;
