@@ -27,26 +27,46 @@
         <h1 id="header-name">GRANT KINGHORN</h1>
       </div>
       <img src="images/profile-pic.png" alt="" id="profile-pic" />
-      <p id="header-intro-text">Hi! I'm currently re-designing my website, if you'd like to get in touch fire me over a message using the contact form
-        form below and I'll get back to you within 24 hours. 
+      <p id="header-intro-text">
+        Hi! I'm currently re-designing my website, if you'd like to get in touch
+        fire me over a message using the contact form form below and I'll get
+        back to you within 24 hours.
       </p>
     </header>
-      <form 
-        action="https://formspree.io/f/xoqzgwnq"
-        method="POST"
-        id="main-contact-form"
-      >
-        <h2 id="form-h2">Contact Me</h2>
-        <label for="name">Your name</label>
-        <input type="text" name="name" class="form-input" id="name-input" required />
-        <label class="form-label" for="email">Your email</label>
-        <input type="email" name="email" class="form-input" required/>
-        <label for="message" class="form-label"> Your message: </label>
-        <textarea name="message" class="form-input" id="message-input"></textarea>
 
-        <!-- your other form fields go here -->
-        <button type="submit" id="form-submit-btn">Send</button>
-      </form>
-    
+    <section id="projects">
+      <article class="project-card">
+        <div class="project-image">
+          <img
+            id="lwp-project-img"
+            src="images/portfolio project preview LWP-01-min.jpg"
+            alt=""
+          />
+        </div>
+      </article>
+    </section>
+
+    <form
+      action="https://formspree.io/f/xoqzgwnq"
+      method="POST"
+      id="main-contact-form"
+    >
+      <h2 id="form-h2">Contact Me</h2>
+      <label for="name">Your name</label>
+      <input
+        type="text"
+        name="name"
+        class="form-input"
+        id="name-input"
+        required
+      />
+      <label class="form-label" for="email">Your email</label>
+      <input type="email" name="email" class="form-input" required />
+      <label for="message" class="form-label"> Your message: </label>
+      <textarea name="message" class="form-input" id="message-input"></textarea>
+
+      <!-- your other form fields go here -->
+      <button type="submit" id="form-submit-btn">Send</button>
+    </form>
   </body>
 </html>
