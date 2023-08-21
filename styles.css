@@ -72,19 +72,54 @@ header {
 }
 
 .project-image {
-    width: 50%;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 22px;
+    overflow: hidden;
 }
 
 .project-card {
-    background-color: #1B3356;
-    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     max-width: 90%;
     height: fit-content;
-    padding: 1%;
+    padding: 2%;
+    background: rgba( 27, 51, 86, 0.40 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 4px );
+    -webkit-backdrop-filter: blur( 4px );
+    border-radius: 22px;
 }
 
 #lwp-project-img {
     max-width: 100%;
+}
+
+.project-info {
+    text-align: center;
+}
+
+.project-card h3 {
+    font-size: 1.8rem;
+    font-weight: bolder;
+}
+
+.technology-tags {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+.technology-tag {
+    background-color: white;
+    color: black;
+    padding: 7px;
+    border-radius: 2px;
+    margin-left: 10px;
+    font-weight: bolder;
 }
 
 #main-contact-form {
@@ -96,9 +131,11 @@ header {
     margin-bottom: 5rem;
     max-width: 90%;
     padding: 4%;
-    border-radius: 12px;
-    background-color: #1B3356;
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+    background: rgba( 27, 51, 86, 0.66 );
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 6px );
+    -webkit-backdrop-filter: blur( 6px );
+    border-radius: 22px;
 }
 
 #form-h2 {
@@ -173,6 +210,15 @@ header {
     body {
         background-image: url(images/background2-01.png);
         background-size: contain;
+    }
+
+    .project-card {
+        flex-direction: row;
+    }
+
+    .project-info {
+        margin: 2rem;
+        text-align: center;
     }
   }
 
